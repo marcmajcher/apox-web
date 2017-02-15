@@ -1,8 +1,13 @@
+body {
+  background-color: #ffe1c5;
+  color: #0f1217;
+}
+
 .navbar {
-  border-top: 20px solid black;
-  border-bottom: 20px solid black;
+  border-top: 20px solid #0f1217;
+  border-bottom: 20px solid #0f1217;
   height: 140px;
-  background-color: #bbc
+  background-color: #b98f73
 }
 
 .navbar a {
@@ -21,11 +26,11 @@
 a.navbar-right {
   padding-right: 12px;
   font-size: 1.5em;
-  color: #333
+  color: #333;
 }
 
 div.greeting {
-  font-size: 2em
+  font-size: 2em;
 }
 
 div.flash-alert {
@@ -35,16 +40,17 @@ div.flash-alert {
 }
 
 body.game-page .driver-name {
-  background-color: #eee;
+  background-color: #3f4740;
+  color: #ee8f49;
   font-size: 3em;
   font-weight: bold;
   margin: 16px 0;
-  padding: 8px
+  padding: 8px;
 }
 
 body.game-page .location-header {
   font-size: 2em;
-  margin: 16px 0
+  margin: 16px 0;
 }
 
 body.game-page .faction-slug {
@@ -58,7 +64,7 @@ body.game-page .faction-slug {
 }
 
 body.game-page .faction-slug.light {
-  background-color: yellow
+  background-color: yellow;
 }
 
 body.game-page .faction-slug.republic {
@@ -93,7 +99,7 @@ body.game-page .location-description {
 }
 
 body.game-page .destinations {
-  background-color: #eee;
+  background-color: #3f4740;
   padding: 16px;
   margin: 16px 0;
   font-size: 1.5em
@@ -127,7 +133,7 @@ body.game-page .destinations table .faction-dot {
   opacity: 0.5;
   height: 1em;
   width: 1em;
-  background-color: grey
+  background-color: grey;
 }
 
 body.game-page .destinations table .faction-dot.light {
@@ -154,12 +160,12 @@ body.game-page .btn-go {
   text-align: center;
   font-size: 1em;
   padding: 2px;
-  color: black
+  color: #0f1217
 }
 
 body.game-page img.map-canvas {
   margin-top: 15px;
-  border: 4px solid black;
+  border: 4px solid #0f1217;
   width: 100%;
   height: 300px
 }
@@ -173,7 +179,7 @@ div.main-content {
 }
 
 small.error {
-  color: red
+  color: red;
 }
 
 
